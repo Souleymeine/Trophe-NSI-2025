@@ -23,7 +23,7 @@ async def main():
 
 	notice_text_area = TextArea(data, ANSI_Styles.BOLD,
 						  Alignment(HorizontalAlignment.CENTER, VerticalAlignment.MIDDLE),
-						  Box(Anchor.TOP_LEFT, Coord(1, 1), Coord(60, 35), True, RGB(255, 100, 0), True))
+						  Box(Anchor.TOP_LEFT, Coord(1, 1), Coord(125, 35), True, RGB(255, 100, 0), True))
 	
 	termsize = os.get_terminal_size()
 
